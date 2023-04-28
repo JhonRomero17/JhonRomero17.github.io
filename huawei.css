@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body {
+    background-image: url(imagenes/huawei/fondohuaw1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+
+  h1 {
+    font-size: 66px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  li {
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 46px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  h3 {
+    font-size: 56px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+ 
+  .img {
+    width: 700px;
+    height: 550px;
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  
+  p {
+    font-size: 38px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  
+  button {
+    background-color: #0077c2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #005e9e;
+  }
+  
+ 
+  a {
+    color: #0077c2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

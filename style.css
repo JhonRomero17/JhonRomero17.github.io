@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-image: url(imagenes/cel1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    text-align: center;
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 44px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .icono {
+    width: 70px;
+    height: 40px;
+}
+
+header .navbar {
+    margin-top: 10px;
+}
+
+header .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header .navbar ul li {
+    margin: 0 10px;
+}
+
+header .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+header .navbar ul li a:hover {
+    color: #f1c40f;
+}
+
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header-content h1 {
+    font-size: 58px;
+    margin-bottom: 30px;
+}
+
+.header-content p {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-content a {
+    display: inline-block;
+    background-color: #f1c40f;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-content a:hover {
+    background-color: #e67e22;
+}
+
+
+.services {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(imagenes/fondo\ cel.jpg);
+}
+
+.servicios {
+	background-image: url(imagenes/huawei/fondohuaw1.jpg);
+    margin: 15px;
+    padding: 50px;
+    color: #fff;
+    background-color: #d8a9a9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(241, 240, 240);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.servicios:hover {
+    transform: scale(1.03);
+}
+
+.servicios img {
+    width: 300px;
+    height: 170px;
+}
+
+.servicios h3 {
+    margin-top: 30px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.servicios p {
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+
+.porfolios {
+    
+    color: #ffffff;
+    margin-top: 30px center;
+    font-size: 28px;
+    text-align: center;
+    background-image: url(imagenes/fondoporfolio.jpg);
+}
+.content{
+	font-size: 66px;
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  th {
+    background-image: url(imagenes/fondoporfolio.jpg);
+    color: #333;
+  }
+  
+footer {
+    background-color: #212121;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons li a {
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+}
+
+.social-icons li a:hover {
+    color: #007bff;
+}
+
+
